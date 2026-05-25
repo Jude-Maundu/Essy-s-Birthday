@@ -363,7 +363,7 @@
   </p>
 
   <!-- CTA -->
-  <a href="index.html" class="btn-enter" id="enterBtn">
+  <a href="celebrate.html" class="btn-enter" id="enterBtn">
     <i class="bi bi-door-open"></i>
     Enter the Celebration
   </a>
@@ -441,7 +441,7 @@ muteBtn.addEventListener('click', () => {
   setMuteUI(audio.muted);
 });
 
-// Autoplay — save position before leaving so index.html can continue
+// Autoplay — save position before leaving so celebrate.html can continue
 function tryPlay() { audio.play().catch(() => {}); }
 window.addEventListener('load', tryPlay);
 document.addEventListener('click',      function once() { tryPlay(); document.removeEventListener('click', once); }, { once: true });
